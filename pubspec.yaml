@@ -41,6 +41,13 @@ dependencies:
   google_sign_in: ^6.1.5
   shared_preferences: ^2.3.1
   image_picker: ^1.1.2
+  qr_code_scanner: ^1.0.1
+  url_launcher: ^6.2.4
+  easy_url_launcher: ^0.0.7
+  # path_provider: ^2.0.3
+  # flutter_archive: ^4.0.1
+  arcore_flutter_plugin: ^0.2.0-alpha
+  # ar_flutter_plugin: ^0.7.3
 
 dev_dependencies:
   flutter_test:

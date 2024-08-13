@@ -2,11 +2,13 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:walmart/constants.dart';
 import 'package:walmart/firebase_options.dart';
+// import 'package:walmart/screens/details/helloworld.dart';
 import 'package:walmart/screens/home/home_screen.dart';
-import 'package:walmart/screens/onboarding/info/info_form.dart';
-import 'package:walmart/screens/onboarding/info/pages/preferences.dart';
-import 'package:walmart/screens/onboarding/login.dart';
-import 'package:walmart/screens/search/search_screen.dart';
+import 'package:walmart/screens/home/pages/qr_scanner.dart';
+// import 'package:walmart/screens/onboarding/info/info_form.dart';
+// import 'package:walmart/screens/onboarding/info/pages/preferences.dart';
+// import 'package:walmart/screens/onboarding/login.dart';
+// import 'package:walmart/screens/search/search_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home:InfoForm(),
+      home: HomeScreen(),
     );
   }
 }

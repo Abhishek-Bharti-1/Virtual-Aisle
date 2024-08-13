@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:walmart/models/Product.dart';
+import 'package:walmart/screens/details/helloworld.dart';
 
 import '../../../constants.dart';
 
@@ -55,8 +56,8 @@ class ColorAndSize extends StatelessWidget {
       Expanded(
          child: InkWell(
           onTap: () => {
-             ScaffoldMessenger.of(context).showSnackBar(snackBar)
-
+            //  ScaffoldMessenger.of(context).showSnackBar(snackBar)
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> HelloWorld()))
           },
            child: Container(
             padding: EdgeInsets.symmetric(vertical: 4),
