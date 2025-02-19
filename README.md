@@ -10,16 +10,25 @@ A Flutter-based shopping application integrating Augmented Reality (AR) to enhan
 - Personalized Recommendations: Uses AI to suggest products based on user preferences and past interactions.
 
 # Tech Stack Used
-### Frontend: Flutter (Dart)
-### State Management: BLoc Architecture
+### Frontend: 
+- Flutter (Dart)
+### State Management:
+- BLoc Architecture
 ### AR Frameworks:
 - Google ARCore (for Android)
 - Apple ARKit (for iOS)
 - SceneKit for 3D object rendering
-### Backend: Firebase
-### Database: Firebase Firestore
-### Machine Learning & AI: ML Kit 
-### Cloud Storage: Firebase Storage
-### Maps & Navigation: Google Maps SDK && Indoor Mapping APIs
-### Authentication: Firebase Auth
-### Payments: Razorpay
+### Backend: 
+- Firebase
+### Database: 
+- Firebase Firestore
+### Machine Learning & AI: 
+- ML Kit 
+### Cloud Storage: 
+- Firebase Storage
+### Maps & Navigation: 
+- Google Maps SDK && Indoor Mapping APIs
+### Authentication: 
+- Firebase Auth
+### Payments:
+- Razorpay
