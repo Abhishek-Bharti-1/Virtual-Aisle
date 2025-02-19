@@ -1,16 +1,25 @@
-# walmart
+# Virtual Aisle
+A Flutter-based shopping application integrating Augmented Reality (AR) to enhance the in-store and online shopping experience. The app leverages AR for guided navigation within the store and a 3D AR try-on feature, enabling users to visualize and compare products before purchase.
 
-A new Flutter project.
+# Key Features:-
 
-## Getting Started
+- AR Store Navigation: Uses ARCore/ARKit and indoor mapping to guide users through the store, helping them locate products efficiently.
+- 3D AR Try-On: Allows customers to preview products like furniture, clothing, or accessories in real-time within their environment using AR model rendering.
+- Product Comparison in AR: Enables users to place multiple items side by side in AR to compare size, fit, and aesthetics.
+- Seamless E-Commerce Integration: Users can add products to their cart, check reviews, and complete purchases directly within the app.
+- Personalized Recommendations: Uses AI to suggest products based on user preferences and past interactions.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tech Stack Used
+### Frontend: Flutter (Dart)
+### State Management: BLoc Architecture
+### AR Frameworks:
+- Google ARCore (for Android)
+- Apple ARKit (for iOS)
+- SceneKit for 3D object rendering
+### Backend: Firebase
+### Database: Firebase Firestore
+### Machine Learning & AI: ML Kit 
+### Cloud Storage: Firebase Storage
+### Maps & Navigation: Google Maps SDK && Indoor Mapping APIs
+### Authentication: Firebase Auth
+### Payments: Razorpay
